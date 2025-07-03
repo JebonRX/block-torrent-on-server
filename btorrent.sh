@@ -24,4 +24,5 @@ curl -s -LO https://raw.githubusercontent.com/JebonRX/block-torrent-on-server/ma
 cat Thosts >> /etc/hosts
 sort -uf /etc/hosts > /etc/hosts.uniq && mv /etc/hosts{.uniq,}
 echo "${OK}"
+echo -n "Script successful installed, reboot vps for better effect ... "
 rm -r btorrent.sh
